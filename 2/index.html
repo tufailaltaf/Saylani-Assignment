@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+   <link rel="stylesheet" href="New folder/index.css">
+</head>
+<body>
+    <div style="background-color:lightgreen ;">
+        <H1>TUFAIL ALTAF</H1>
+        <h1>Roll No:WM8411</h1>
+        <h2>ASSIGNMENT NO: 2</h2>
+        <h1>FORM:</h1>
+        </div>
+    <header>
+    <img id="logo" src="New folder/logo.jpeg" width="280px" height="100px" alt="company logo">
+</header>
+    <h1 id="head">REGISTRATION FORM</h1>
+   <div id="main"> <form action="New folder/submit.html" method="GET">
+<p>FIRST NAME: <input id="fname" type="text" name="First-Name" size="30" placeholder="Enter First Name..." required="required"> (Max 30 characters a-z & A-Z) </p>
+
+<p>LAST NAME: <input id="lname" type="text" name="Last-Name" size="30" placeholder="Enter Last Name..." required="required"> (Max 30 characters a-z & A-Z)</p>
+<p>DATE OF BIRTH: <input id="dob" type="date" >  </p>
+<p>EMAIL ID :<input id="email" type="email" placeholder="Enter your Email Address..." size="20" required="required">  </p>
+<p>MOBILE NUMBER: <input id="num" type="number" placeholder="Enter your Mobile Number..." size="11" required="required">(11 digits Number) </p>
+<p>GENDER: <input type="radio" id="gender" name="gender" value="male">MALE 
+<input type="radio"  name="gender" value="female">FEMALE </p>
+<p>ADDRESS: </p><textarea id="area" cols="20" rows="4" placeholder="Enter Your Address...."></textarea> 
+<p>CITY: <input id="city" type="text" placeholder="City Name" size="10"> </p>
+<p>PIN CODE: <input id="code" type="number" placeholder="Enter pin code...." > (6 Digits Number) </p>
+<p>STATE: <input id="state" type="text" placeholder="Enter State...." size="30"> (Max 30 characters a-z & A-Z) </p>
+<p>CITY: <input id="country" type="text" placeholder="Country Name" size="10"> </p>
+<p>HOBBIES: <input id="hobby" type="checkbox" name="hobby" value="drawing"> DRAWING
+    <input type="checkbox" name="hobby" value="dancing"> DANCING
+    <input type="checkbox" name="hobby" value="singing"> SINGING
+    <input type="checkbox" name="hobby" value="sketching"> SKETCHING
+</p>
+<input id="others" checked="checked"  type="checkbox" name="hobby" value="others">OTHERS <input type="text" size="10" >
+<p>QUALIFICATION:
+<table id="tab">
+    <tr class="row">
+        <td>S.NO</td>
+        <td>Examination</td>
+        <td>Board</td>
+        <td>Percentage</td>
+        <td>Year Of Passing</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Class Matric</td>
+        <td><input type="text" class="blank"> </td>
+        <td><input type="text" class="blank"> </td>
+        <td><input type="text" class="blank"> </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Class Intermediate</td>
+        <td><input type="text"  class="blank"> </td>
+        <td><input type="text" class="blank"> </td>
+        <td><input type="text" class="blank"> </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Graduation</td>
+        <td><input type="text" class="blank"> </td>
+        <td><input type="text" class="blank"> </td>
+        <td><input type="text" class="blank"> </td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Masters</td>
+        <td><input type="text" class="blank"> </td>
+        <td><input type="text" class="blank"> </td>
+        <td><input type="text" class="blank"> </td>
+    </tr>
+    <tr class="row">
+        <td></td>
+        <td></td>
+        <td> (10 Character Max) </td>
+        <td> (upto 2 decimal) </td>
+        <td> </td>
+    </tr>
+</table>
+</p>  
+<p>STUDENT OF: <input type="radio" id="stu" name="STUDYING" value="b.sc">B.SC 
+    <input type="radio"  name="STUDYING" value="b.com">B.COM  
+    <input type="radio"  name="STUDYING" value="b.a">B.A
+    <input type="radio"  name="STUDYING" value="b.ca">B.CA </p>
+    <input id="submit" type="submit" name="submit" value="SUBMIT" >
+    <br/>
+   <button id="reset"> <a href="index.html">Reset</a></button>
+   <br><br>
+</form>
+</div>
+<br><br>
+</body>
+</html>

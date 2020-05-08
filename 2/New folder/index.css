@@ -1,0 +1,130 @@
+
+     
+#head{
+    text-align: center;
+    color: rgb(70, 67, 67);
+    }
+    #head:hover{
+ text-decoration: underline;
+    }
+form{
+    background-color: rgb(70, 67, 67);
+    color: white;
+}
+
+#fname{
+margin-top: 20px;
+    margin-left: 70px;
+}
+p{
+   margin:20px;
+}
+#lname{
+margin-top: 20px;
+
+    margin-left: 73px;
+}     
+#dob{
+    margin-top: 20px;
+
+    margin-left: 48px;
+}
+#email{
+    margin-top: 20px;
+
+    margin-left: 93px;
+}
+#num{
+    margin-top: 20px;
+
+    margin-left: 30px;
+}
+#gender{
+    margin-top: 20px;
+
+margin-left: 100px;
+}
+#area{margin-top: -35px;
+    margin-left:195px ;
+}
+#city{
+    margin-top: 20px;
+
+    margin-left: 130px;
+}
+#code{
+    margin-top: 20px;
+
+    margin-left: 90px;
+}
+#state{
+    margin-top: 20px;
+
+    margin-left: 115px;
+}
+#country{
+    margin-top: 20px;
+
+    margin-left: 125px;
+}
+#hobby{
+    margin-top: 20px;
+
+    margin-left: 90px;
+}
+#others{
+    margin-left: 185px;
+}
+.row{
+    text-align: center;
+}
+table{
+    margin-left: 180px;
+    margin-top: -40px;
+}
+#logo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#stu{
+    margin-top: 20px;
+
+margin-left: 55px;
+}
+#submit{
+    width: 100px;
+    height: 40px;
+   cursor: pointer;
+   background-color:rgb(7, 6, 6);
+   color: white;
+   border-color: rgb(7, 6, 6);
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+  
+}
+#reset{width: 100px;
+    height: 40px;
+    background-color:rgb(7, 6, 6) ;
+   color: white;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   font-size: medium;
+  
+   border-color: rgb(7, 6, 6);}
+    a{text-decoration: none;
+        background-color:rgb(7, 6, 6) ;
+   color: white;
+   border-color: rgb(7, 6, 6);
+   
+    }
+    #main{margin-left: auto;
+    margin-right: auto;
+    display: block;
+        width: 800px;
+    }
+.blank{
+    width: 130px;
+}

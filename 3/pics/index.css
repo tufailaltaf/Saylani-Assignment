@@ -1,0 +1,377 @@
+:root{
+    --body-color:whitesmoke;
+   --font-color:white;
+    --white:white;
+    --f2-color:black;
+--working-color:#2857bb;
+--smoke:white;
+--whites:whitesmoke;
+}
+[theme =dark]{
+    --body-color:black;
+    --font-color:black;
+   --working-color:black;
+    --f2-color:whitesmoke;
+    --white:rgb(245, 238, 238);
+    --smoke:whitesmoke;
+    --whites:black;
+}
+.weare{
+    background-color: var(--body-color);
+}
+.whatwe {
+    text-align: center;
+    margin-top: 50px;
+}
+.mainbox {
+    margin: 4% 0%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   /* You can set flex-wrap and
+      flex-direction individually */
+   flex-direction: row;
+   flex-wrap: wrap;
+   /* Or do it all in one line
+     with flex flow */
+   flex-flow: row wrap;
+   /* tweak where items line
+      up on the row
+      valid values are: flex-start,
+      flex-end, space-between,
+      space-around, stretch */
+   align-content: flex-end;
+
+}
+.doing{
+    border: var(--whites) solid 2px;
+    text-align: center;
+        background-color: var(--smoke);
+        height: 150px;
+        color: rgba(16, 107, 243, 0.986);
+        flex: 1 0 21%;
+    }
+
+.view-mode{
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    background-color: var(--f2-color);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 64px;
+    left: 64px;
+}
+.do{
+    width: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom:-20px;
+}
+.doin{
+    text-align: center;
+    margin-top: 20px;
+    color: blue;
+   
+}
+.view-mode:hover{
+    cursor: pointer;
+}
+span.fas{
+    color: var(--body-color);
+    font-size: 1.7rem;
+}
+.press {
+    display: block;  /* Remove bullet points; allow greater control of positioning */
+    padding: 0;      /* Override defaults for lists */
+    margin: 0;       /* Override defaults for lists */
+    width: 20%;     /* Get the row full width */
+    margin-top: 13px;
+    margin-bottom: 5px;
+}
+
+
+  
+.nav{
+    border: 1px solid black;
+    background-color: rgb(53, 115, 231);
+    text-align: center;}
+   
+
+body{
+    background-color: var(--body-color);
+    line-height: 1.7;
+  color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+.para{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    flex: 3;
+    font-size: 14px;
+    text-align: center;}
+
+li.logo{
+    padding-left:1em;
+    display: inline;
+}
+.lin{
+    flex: 1;  
+    flex-direction: row;
+}
+.headline1 {
+    background-color: rgb(53, 115, 231);
+    color: white;
+    margin-top: 14px;
+}
+.link{ 
+   
+    background-color: white;
+    padding-left: .5em;
+    margin: 2px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 20px;
+    width: 78px;
+    font-size: 10px;
+    color: green;
+}
+.list{
+    flex: 1;
+}
+
+
+h5:hover{
+    cursor: pointer;
+}
+h5{
+    color:black;
+    font-size: 10px;
+    margin-top: 5px;
+   font-weight: bold;
+}
+.dropdiv{
+    background-color: var(--body-color);
+  
+}
+.down{
+    display:inline-block;
+    margin-left: 10px;
+}
+.btn-secondary{
+    background-color: var(--body-color);
+    color: var(--f2-color);
+    border: 0px;
+}
+.btn-secondary:hover{
+    background-color: #2857bb;
+}
+
+
+.blue {
+    color: rgb(53, 115, 231);
+}
+
+.green {
+    color: green;
+}
+
+.introduction {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.circlelogo {
+    text-align: center;
+}
+
+.paragraph {
+    margin: 0px 80px 0px 80px;
+    text-align: justify;
+    padding-top: 20px;
+    color: var(--f2-color);
+}
+.calculate {
+    border: solid 1px black;
+    background-color: rgb(0, 86, 245);
+    margin-top: 105px;
+    padding: 3% 0%;
+}
+@media only screen and  (min-width: 880px){
+.calculate {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+} .mainbox {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   /* You can set flex-wrap and
+      flex-direction individually */
+   flex-direction: row;
+   flex-wrap: wrap;
+   /* Or do it all in one line
+     with flex flow */
+   flex-flow: row wrap;
+   /* tweak where items line
+      up on the row
+      valid values are: flex-start,
+      flex-end, space-between,
+      space-around, stretch */
+   align-content: flex-end;}
+   .mission {
+    display: flex;
+}  .nav {
+    display: flex;
+    align-items: flex-start;
+}.contactbox {
+    display: flex;
+}
+.view-mode{ bottom:5px;}
+ }
+.boxofcalculation {
+    flex: 1;
+    text-align: center;
+}
+
+.counter {
+    font-size: 50px;
+    color: white;
+}
+
+.description {
+    color: white;
+    font-size: small;
+}
+.missionportion {
+    background-color: var(--body-color);
+    display: inline-block;
+}
+
+.project {
+    color: rgba(16, 107, 243, 0.986);
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+.hepa {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.heading {
+    display: inline-block;
+    padding-left: 25px;
+    padding-top: 20px;
+    color: rgba(16, 107, 243, 0.986);
+    font-size: medium;
+    font-weight: bold;
+}
+
+.dabba {
+    border: whitesmoke solid 1px;
+    height: 80px;
+    width: 290px;
+    margin: 15px;
+    display: inline-block;
+    background-color: white;
+}
+
+.house {
+    display: inline-block;
+    padding-left: 28px;
+}
+
+
+
+
+.it {
+    padding-left: 20px;
+}
+
+
+
+
+.thar {
+    padding-left: 30px;
+}
+
+
+
+.mission {
+    padding: 10px;
+    padding-bottom: 5%;
+    display: inline-block;
+}
+
+.upcoming {
+    color: rgba(16, 107, 243, 0.986);
+}
+
+.roll{
+    flex: 1;
+    padding-left: 3%;
+}
+
+.facility {
+    flex: 2;
+}
+marquee{color: var(--f2-color);}
+.tasveerein {
+    text-align: center;
+}
+
+.gol {
+    padding-left: 420px;
+    padding-top: 15px;
+}
+
+.tasveer {
+    padding-left: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+.gallerypotyion{
+    margin: 10px;
+}
+.contactbox {
+    
+    height: 420px;
+    background-color: var(--f2-color);
+    color: var(--font-color);
+    margin-top: 230px;
+    padding: 3%;
+}
+
+.detail {
+    flex: 1;
+}
+
+.uselink {
+    flex: 1;
+}
+
+.foot {
+    flex: 1;
+}
+
+.copyrightportion {
+   
+    background-color: rgba(16, 107, 243, 0.986);
+    height: 55px;
+    color: white;
+}
+
+.lastt {
+    margin: 0px 10px 10px 10px;
+    font-size: small;
+    padding: 12px 10px 10px 120px;
+}
